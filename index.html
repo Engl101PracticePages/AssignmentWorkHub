@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>ENGL&101 Assignment Work Hub</title>
+  <title>English 101/117 Toolkit Work Hub</title>
   <style>
     :root {
       --gator-green: #6CB443;
@@ -82,6 +82,15 @@
       margin: 0 auto;
     }
 
+    .header-card {
+      background: rgba(255, 255, 255, 0.12);
+      border: 3px solid rgba(255, 255, 255, 0.85);
+      border-radius: var(--radius);
+      padding: clamp(1.5rem, 5vw, 2.75rem);
+      text-align: center;
+      box-shadow: var(--shadow);
+    }
+
     .eyebrow {
       display: inline-block;
       background: rgba(255, 255, 255, 0.16);
@@ -103,7 +112,7 @@
     .header-text {
       max-width: 820px;
       font-size: 1.2rem;
-      margin: 0;
+      margin: 0 auto;
     }
 
     main {
@@ -400,16 +409,18 @@
 
   <header>
     <div class="header-inner">
-      <h1>ENGL&amp;101 Assignment Work Hub</h1>
-      <p class="header-text">
-        Open your assignment pages here. Save unfinished work in your own Google Doc.
-      </p>
+      <div class="header-card">
+        <h1>English 101/117 Toolkit Work Hub</h1>
+        <p class="header-text">
+          Open toolkit workpages here. Save unfinished work in your own Google Doc.
+        </p>
+      </div>
     </div>
   </header>
 
   <main id="main-content">
     <details class="help-details" open>
-      <summary>My Google Doc</summary>
+      <summary>My Google Doc Save Space</summary>
       <div class="details-inner" id="setup-help">
         <div class="setup-grid">
           <div>
@@ -493,9 +504,9 @@
     </details>
 
     <section class="card" aria-labelledby="assignments-heading">
-      <h2 id="assignments-heading">Open an Assignment Workpage</h2>
+      <h2 id="assignments-heading">Open a Toolkit Workpage</h2>
       <p>
-        Choose your class. Canvas will tell you which chapter to open.
+        Choose your class. Canvas will tell you which toolkit chapter to open.
       </p>
 
       <div class="tab-list" role="tablist" aria-label="Choose assignment list">
@@ -622,7 +633,7 @@
 
   <footer>
     <p>
-      This page is designed to help students keep track of assignment work. It does not collect, read, or grade student writing.
+      This page is designed to help students open toolkit workpages and save unfinished work. It does not collect, read, or grade student writing.
     </p>
   </footer>
 
